@@ -7,11 +7,15 @@ h1 {
     font-size: 60px;
 }
 
-.Color {
+h2 {
+    font-size: 40px;
+}
+
+.color {
     color: coral;
 }
 
-section {
+.flexiable {
     display: flex;
     margin-bottom: 150px;
 }
@@ -23,6 +27,7 @@ section {
 
 .width img {
     width: 80%;
+
 }
 
 .link {
@@ -43,4 +48,34 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+
+}
+
+.exp {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+
+}
+
+#A1 {
+    border-left: 7px solid red;
+}
+
+#A2 {
+    border-left: 9px solid hotpink;
+}
+
+footer p {
+    text-align: center;
 }
